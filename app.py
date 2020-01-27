@@ -20,7 +20,7 @@ def predict():
    
 
     output = round(prediction[0], 2)
-    print(output)
+  
     if(output==1):
       return render_template('index.html', prediction_text='RESULT IS POSITIVE')
     else:
