@@ -21,9 +21,9 @@ def predict():
 
     output = round(prediction[0], 2)
   
-    if(output==1):
-      return render_template('index1.html')
+    if(output==0):
+      return render_template('index2.html')
     else:
-          return render_template('index2.html')
+          return render_template('index1.html')
 if __name__ == "__main__":
     app.run(debug=True)
