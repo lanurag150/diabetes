@@ -11,23 +11,23 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-       <link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}" >
-    <link rel="stylesheet"  href="{{ url_for('static', filename='css/animate.css') }}">
+       <link rel="stylesheet" href="{{ url_for('static', filename='css/css/open-iconic-bootstrap.min.css') }}" >
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/css/animate.css') }}">
     
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/owl.carousel.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/owl.theme.default.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/magnific-popup.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/aos.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/ionicons.min.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-datepicker.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.timepicker.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/bootstrap-datepicker.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/jquery.timepicker.css') }}">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/style.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/flaticon.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/icomoon.css') }}">
   </head>
   <body>
   
@@ -61,7 +61,7 @@
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/diabetes.jpg') }}'); background-attachment:fixed;">
+    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='css/images/diabetes.jpg') }}'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -180,23 +180,23 @@
     <!-- Main JS-->
    
 
-  <script src={{ url_for('static', filename='js/jquery.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/popper.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/bootstrap.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.easing.1.3.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.waypoints.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.stellar.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/owl.carousel.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/aos.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.animateNumber.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/bootstrap-datepicker.js') }}></script>
-  <script src={{ url_for('static', filename='js/jquery.timepicker.min.js') }}></script>
-  <script src={{ url_for('static', filename='js/scrollax.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery-migrate-3.0.1.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/popper.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/bootstrap.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.easing.1.3.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.waypoints.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.stellar.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/owl.carousel.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.magnific-popup.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/aos.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.animateNumber.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/bootstrap-datepicker.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/jquery.timepicker.min.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/scrollax.min.js') }}></script>
   
-  <script src={{ url_for('static', filename='js/google-map.js') }}></script>
-  <script  src={{ url_for('static', filename='js/main.js') }}></script>
+  <script src={{ url_for('static', filename='css/js/google-map.js') }}></script>
+  <script  src={{ url_for('static', filename='css/js/main.js') }}></script>
     
   </body>
 </html>
