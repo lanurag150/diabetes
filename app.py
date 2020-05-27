@@ -7,7 +7,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
-    return render_template('index0.html')
+    return render_template('index.php')
 
 @app.route('/predict',methods=['POST'])
 def predict():
@@ -21,9 +21,9 @@ def predict():
 
     output = round(prediction[0], 2)
   
-    if(output==0):
-      return render_template('index2.html')
+    if(output==1):
+       return render_template('index.php', prediction_text='RESULT IS POSITIVE')
     else:
-          return render_template('index1.html')
+          return render_template('index.php', prediction_text='RESULT IS NEGATIVE')  
 if __name__ == "__main__":
     app.run(debug=True)
