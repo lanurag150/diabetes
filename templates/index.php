@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Premedic-Diabetes Analysis</title>
+    <title>Premedic-BreastCancer Analysis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,20 +14,20 @@
        <link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}" >
     <link rel="stylesheet"  href="{{ url_for('static', filename='css/animate.css') }}">
     
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/owl.carousel.min.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/owl.theme.default.min.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/magnific-popup.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/aos.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/ionicons.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}" >
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/bootstrap-datepicker.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/jquery.timepicker.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-datepicker.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.timepicker.css') }}">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/style.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/flaticon.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
   </head>
   <body>
   
@@ -61,26 +61,26 @@
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='css/images/diabetes.jpg') }}'); background-attachment:fixed;">
+    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/diabetes.jpg') }}'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/index.php">Home</a></span></p>
-            <h3 class="mb-3 bread">Diabetes-Department</h3>
+            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/indexmain-user.php">Home</a></span></p>
+            <h3 class="mb-3 bread">Diabetes Disease-Department</h3>
           </div>
         </div>
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1200px">
    
       <div class="container col-lg-6" >
           
           
             <div class="w3-card-4" style="width: 550px;">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">DiabetesAnalysis</h2>
+                <h2 style="color:white;">Diabetes Analysis</h2>
               </div>
               <form class="w3-container" action="{{ url_for('predict')}}"method="post">
                 <br>
@@ -113,7 +113,7 @@
                 <p>      
                 <label class="w3-text-black"><b>AGE</b></label>
                 <input class="w3-input w3-border w3-sand" name="AGE" type="text" required="required"></p>
-             
+            
                 <p>
                 <button type="submit"class="w3-btn w3-black">Analyse now</button></p>
               </form>
@@ -180,23 +180,23 @@
     <!-- Main JS-->
    
 
-  <script src={{ url_for('static', filename='css/js/jquery.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery-migrate-3.0.1.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/popper.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/bootstrap.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.easing.1.3.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.waypoints.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.stellar.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/owl.carousel.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.magnific-popup.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/aos.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.animateNumber.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/bootstrap-datepicker.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/jquery.timepicker.min.js') }}></script>
-  <script src={{ url_for('static', filename='css/js/scrollax.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/popper.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/bootstrap.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.easing.1.3.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.waypoints.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.stellar.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/owl.carousel.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/aos.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.animateNumber.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/bootstrap-datepicker.js') }}></script>
+  <script src={{ url_for('static', filename='js/jquery.timepicker.min.js') }}></script>
+  <script src={{ url_for('static', filename='js/scrollax.min.js') }}></script>
   
-  <script src={{ url_for('static', filename='css/js/google-map.js') }}></script>
-  <script  src={{ url_for('static', filename='css/js/main.js') }}></script>
+  <script src={{ url_for('static', filename='js/google-map.js') }}></script>
+  <script  src={{ url_for('static', filename='js/main.js') }}></script>
     
   </body>
 </html>
