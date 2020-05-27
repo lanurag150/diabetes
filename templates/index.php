@@ -85,8 +85,8 @@
               <form class="w3-container" action="{{ url_for('predict')}}"method="post">
                 <br>
                 <p>      
-                <label class="w3-text-black"><b>Age</b></label>
-                <input class="w3-input w3-border w3-sand" name="age" type="text" required="required">     </p>
+                <label class="w3-text-black"><b>Pregnencies</b></label>
+                <input class="w3-input w3-border w3-sand" name="pregnencies" type="text" required="required">     </p>
                 <p>      
                 <label class="w3-text-black"><b>Glucose</b></label>
                 <input class="w3-input w3-border w3-sand" name="glucose" type="text" required="required">
