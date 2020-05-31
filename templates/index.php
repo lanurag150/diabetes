@@ -6,7 +6,7 @@
   <head>
     <title>Premedic-Diabetes Analysis</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,7 +78,7 @@
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 550px;background-color:White;">
+            <div class="w3-card-4" style="max-width:550px;margin: auto;background-color:White;">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Diabetes Analysis</h2>
               </div>
