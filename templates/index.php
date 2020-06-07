@@ -148,6 +148,139 @@
       {{ prediction_text }}
 	   <a href="http://premediccare.rf.gd/Diabetes_Rec.php" target="_top" align="right">  <button class="button button1">Recommend</button></a>
     </section>
+	   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:White;">
+		   <div class="row justify-content-start mb-5 pb-3 mt-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4">Top Hospitals in India</h2>
+		          </div>
+		        </div>
+            <div class="row">
+            	<div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/fortis.jpg') }}'); ">
+			                <div class="box">
+			                  <h2>Fortis Escorts Heart Institute and Research Center</h2>
+			                  <p><b>Address:</b>Okhla Road, New Delhi - 110 025 (INDIA)</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                  <pre><b>Salient Features</b>
+200 expert doctors and 1600 qualified employees
+Hi-tech technology such as Dual CT Scan
+More than 14,000 patient admissions and 7000 emergency patients handled each year
+Around 285 hospital beds with full occupancy
+5 equipped Cath labs
+First of its kind E-ICU in India
+</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+Dr. Ashok Seth, Cardiologist
+Dr. Ashok Kumar Omar, Cardiologist (Non-invasive)
+Dr. S.N. Khanna, Cardiac Surgeon
+Dr. Z.S. Meharwal, Surgeon (Cardiovascular)
+</pre>
+			                </blockquote>
+			          	</div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+			        <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/indra.jpg') }}'); ">
+			                <div class="box">
+			                  <h2>Indraprastha Apollo hospital</h2>
+			                  <p><b>Address:</b>G / N Block, Bandra Kurla Complex,Bandra (E), Mumbai 400 051, Maharashtra, INDIA.</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                 <pre><b>Salient Features</b>
+Close to 2.5 lakhs patients treated till date
+33,000 angiographies done
+22,000 surgeries performed
+18,000 bypass patients provided with surgery
+Success rate of 99.3% with regards to bypass surgeries
+Success rate of 99.83% with regards to Cardiac Surgeries</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+Dr. Ramakanta Panda, Surgeon (Cardiothoracic & Vascular)
+Dr. Tilak Suvarna, Cardiologist (Interventional)
+Dr. Prafulla Kerkar, Cardiologist
+Dr. Sunil Vanzara, Surgeon (Cardiothoracic & Vascular)	</pre>
+ 
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+		     <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/apollo.jpg') }}'); ">
+			                <div class="box">
+			                  <h2>Apollo Hospitals,Greams Lane</h2>
+			                  <p><b>Address:</b>No. 21, Greams Lane,Off.Greams Road, Chennai - 600006</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                 <pre><b>Salient Features</b>
+More than 1,40,000 heart surgeries performed till date
+Success rate of 99.6% achieved
+Dedicated and well equipped CCUs in 1:1 ratio.
+Latest diagnostic and medical equipment used
+Expert team of surgeons and doctors
+Saving a child's heart initiative for serving underprivileged.</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+Dr. Amal Louis, Cardiologist
+Dr. Guru Prasad Sogunuru, Cardiology specialist
+Dr. Y. Vijaychandra Reddy, Cardiologist (Interventional)
+Dr. Asha Mahilmaran, Cardiologist</pre>
+ 
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+		    <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/nanavati.jpg') }}'); ">
+			                <div class="box">
+			                  <h2>Nanavati Super Speciality Hospital,</h2>
+			                  <p><b>Address:</b>Swami Vivekanand Rd,LIC Colony,Suresh Colony, Vile Parle West,Mumbai, Maharashtra 400056</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                 <pre><b>Salient Features</b>
+Highly advanced diagnostic facilities like MrgFUS.
+First of its kind fully functional cardiac catheterization lab
+Advanced techniques like minimal access bypass surgery
+Facilities for patients visiting from abroad
+I.C.C.U for heart patients requiring critical care</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+Dr. Harish Mohanty - Cardiologist
+Dr. Akshay Mehta - Cardiologist
+Dr. Mahesh Shah - Cardiologist
+Dr. Lekha Pathak - Cardiologist
+Dr. Rajiv Bhagwat - Cardiologist
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+
+            </div>
+	</section>	
 		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>
       <div class="container">
