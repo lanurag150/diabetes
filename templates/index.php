@@ -145,7 +145,7 @@
             </div>
             </div>
       {{ prediction_text }}
-	   <a href="http://premediccare.rf.gd/Malaria_rec.php?i=1" target="_top" align="right">  <button class="button button1">Recommend</button></a>
+	   <a href="http://premediccare.rf.gd/Diabetes_Rec.php" target="_top" align="right">  <button class="button button1">Recommend</button></a>
     </section>
 		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>
